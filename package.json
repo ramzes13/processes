@@ -1,0 +1,19 @@
+{
+  "name": "processes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramzes13/processes.git"
+  },
+  "author": "darii petru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramzes13/processes/issues"
+  },
+  "homepage": "https://github.com/ramzes13/processes#readme"
+}
