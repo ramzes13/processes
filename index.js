@@ -6,7 +6,7 @@ function runProcess(processMeta, callback) {
     processMeta.callbackFunction(callback);
   } else {
     const prc = spawn(processMeta.cmd, processMeta.args);
-    prc.stdout.on('finish', callback);
+    prc.stdout.on('close', callback);
 
     if (processMeta.afterStart) {
       processMeta.afterStart(prc);
